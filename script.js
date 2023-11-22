@@ -2,9 +2,10 @@
 
 function getFormValue() {
     var firstName = document.getElementById("firstName").value;
-    var lastName = document.getElementById("lastName").value;
+    var middleName = document.getElementById("middleName").value;
+	var lastName = document.getElementById("lastName").value;
 
-    var resultMessage =firstName +" " + lastName;
+    var resultMessage =firstName +" " + middleName+" "+lastName;
 
     alert(resultMessage);
 }
