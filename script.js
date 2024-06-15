@@ -5,7 +5,8 @@ function getFormValue() {
     var middleName = document.getElementById("middleName").value;
 	var lastName = document.getElementById("lastName").value;
 
-    var resultMessage =firstName +" " + middleName+" "+lastName;
+    var resultMessage =firstName +" "+ middleName+" "+lastName;
 
     alert(resultMessage);
+	
 }
